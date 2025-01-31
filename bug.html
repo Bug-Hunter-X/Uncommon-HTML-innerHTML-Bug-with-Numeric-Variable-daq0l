@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be visible.
+  </div>
+
+  <script>
+    // Incorrectly using innerHTML with a variable that's not a string
+    let myVar = 123; 
+    document.getElementById("myDiv").innerHTML = myVar; 
+  </script>
+</body>
+</html>
