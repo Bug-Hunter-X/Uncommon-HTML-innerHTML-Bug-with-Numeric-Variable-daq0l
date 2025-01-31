@@ -1,0 +1,3 @@
+This repository demonstrates a subtle bug in HTML that can easily be overlooked.  The bug involves using a numeric variable directly with the `innerHTML` property, resulting in unexpected behavior.
+
+The `bug.html` file contains the buggy code. The solution, found in `bugSolution.html`, shows the correct way to handle such situations by converting the numeric variable to a string before assigning it to `innerHTML. This repository serves as a helpful resource for understanding how to effectively handle variable assignment in JavaScript for HTML manipulation and avoid such common pitfalls during development.
